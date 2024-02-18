@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap" rel="stylesheet">
+  
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Recipe page</title>
+
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    body{
+      background-color:  hsl(30, 54%, 90%);
+      min-height: 100vh;
+      display: flex;
+      font-family: "Outfit", sans-serif;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      font-size: 16px;
+      
+    }
+    .container{
+      max-width : 798px;
+      background-color: hsl(0, 0%, 100%);
+      padding:30px; 
+      position: relative;
+     
+      margin:auto;
+    }
+    .b{
+      color:hsl(30, 10%, 34%);
+      font-weight: 600;
+    }
+    .c{
+      color: hsl(14, 45%, 36%);
+      font-weight: 400;
+    }
+    h1{
+      color: hsl(24, 5%, 18%);
+      font-weight: 600;
+      font-family: "Young Serif", serif;
+    }
+    h2{
+      color: hsl(14, 45%, 36%);
+      font-weight: 400;
+      font-family: "Young Serif", serif;
+    }
+    #prep{
+      color: hsl(332, 51%, 32%);
+    }
+    .time{
+      background-color: hsl(330, 100%, 98%);
+    }
+    hr{
+      color:  hsl(14, 45%, 36%);
+    }
+    p{
+      display: flex;
+      justify-content: space-around;
+    }
+  </style>
+</head>
+
+<body>
+<div class="container">
+
+  <section class="pic">
+    <img src="assets\images\image-omelette.jpeg" width="700px">
+  </section>
+
+  <section class="Header">
+  <h1>Simple Omelette Recipe</h1>
+
+  An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked 
+  to perfection, optionally filled with your choice of cheese, vegetables, or meats. <br></br>
+
+<div class="time">
+  <h3 id="prep">Preparation time</h3>
+<ul>
+  <li><span class="b">Total</span>: Approximately 10 minutes</li>
+  <li><span class="b">Preparation</span>: 5 minutes</li>
+  <li> <span class="b">Cooking</span>: 5 minutes</li>
+</ul>
+</div>
+
+</section>
+
+<section class="Ingredients">
+  <h2>Ingredients</h2>
+<ul>
+  <li>2-3 large eggs</li>
+  <li>Salt, to taste</li> 
+  <li>Pepper, to taste</li> 
+  <li>1 tablespoon of butter or oil</li> 
+  <li>Optional fillings: cheese, diced vegetables, cooked meats, herbs</li> 
+</ul>
+</section>
+
+<hr>
+
+<section class="Instructions">
+  <h2>Instructions</h2>
+<ol>
+  <li><span class="b">Beat the eggs</span>:In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed.
+  You can add a tablespoon of water or milk for a fluffier texture.</li> 
+
+  <li><span class="b">Heat the pan</span>: Place a non-stick frying pan over medium heat and add butter or oil.</li>
+
+  <li><span class="b">Cook the omelette</span>: Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure </li>
+  <li>the eggs evenly coat the surface.</li>
+
+  <li><span class="b">Add fillings (optional)</span>: When the eggs begin to set at the edges but are still slightly runny in the 
+    middle, sprinkle your chosen fillings over one half of the omelette.</li>
+
+  <li><span class="b">Fold and serve</span> : As the omelette continues to cook, carefully lift one edge and fold it over the 
+    fillings. Let it cook for another minute, then slide it onto a plate.</li>
+
+  <li><span class="b">Enjoy</span>: Serve hot, with additional salt and pepper if needed.</li>
+</ol>
+</section>
+
+<hr>
+
+<section class="Nutrition">
+  <h2>Nutrition</h2>
+
+  The table below shows nutritional values per serving without the additional fillings.<br></br>
+
+  <p><span>Calories</span>
+  <span class="c">277kcal</span></p>
+  <hr>
+  <p><span>Carbs</span>
+  <span class="c">0g</span></p>
+  <hr>
+  <p><span>Protein</span>
+  <span class="c">20g</span></p>
+ <hr>
+ <p><span>Fat</span>
+ <span class="c">22g</span></p>
+</section>
+</div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
