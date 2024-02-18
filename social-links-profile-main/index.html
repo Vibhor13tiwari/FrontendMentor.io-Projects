@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Social links profile</title>
+
+  
+  <style>
+    body{
+      background-color: hsl(0, 0%, 8%);
+      height: 100vh;       
+      
+    }
+    .main{
+    height:90vh;
+    display:flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+    
+    article{
+      background-color: hsl(0, 0%, 12%);
+      display:flex;
+      flex-direction: column;
+      text-align: center;
+      max-width:  350px;
+      max-height: 70vh;
+      
+    }
+    #pic{
+      padding:10px;
+    }
+    img{
+      
+       border-radius: 50%;
+       width:50px;
+       height: 50px;
+       
+       
+    }
+    #name{
+      color: hsl(0, 0%, 100%);
+      font-weight: 700;
+      font-size: 18px;
+    }
+    #location
+    {
+      color: hsl(75, 94%, 57%);
+      font-size: 14px;
+      font-weight: 600;
+    }
+    #desc{
+      color: hsl(0, 0%, 100%);
+      font-weight: 300;
+      margin:5px;
+    }
+    #a,#b,#c,#d,#e{
+      background-color: hsl(0, 0%, 20%);
+      font-size: 14px;
+      margin:10px;
+      padding:10px;
+      color: hsl(0, 0%, 100%);
+      font-weight: 600;
+      
+    }
+   
+    .attribution { font-size: 14px; text-align: center;
+      height:10vh; color: white; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+<div class="main">
+   <article>
+      <div id="pic">
+        <img src="./astronaut-hanging-on-moon-fo 2.jpg" />
+      </div>
+      <section id="name">
+        <p>Vibhor Tiwari</p>
+        <p id="location">Lucknow, Republic of India</p>
+      </section>
+      <section id="desc">
+        <p>"Front-end developer and avid reader."</p>
+      </section>
+      <section id="a">GitHub</section>
+      <section id="b">Frontend Mentor</section>
+      <section id="c"> LinkedIn</section>
+      <section id="d">Twitter</section>
+      <section id="e"> Instagram</section>
+    </article>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
